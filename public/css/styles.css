@@ -1,0 +1,125 @@
+body{margin-top:40px;
+    background:#eee;
+    }
+
+.page-todo .tasks {
+    background: #fff;
+    padding: 0;
+    border-right: 1px solid #d1d4d7;
+    margin: -30px 15px -30px -15px
+}
+
+.page-todo .task-list {
+    padding: 30px 15px;
+    height: 100%;
+}
+
+.tasks {
+    position: relative;
+    top: 20px;
+    left: 230px;
+    border-radius: 0.5cm;
+    box-shadow: 4px 5px 18px #ccc;
+}
+
+.botao-novo {
+    position: absolute;
+    left: 800px;
+}
+
+.botao-voltar {
+    position: absolute;
+    left: 790px;
+}
+
+.page-todo .priority.high {
+    background: #fffdfd;
+    margin-bottom: 1px
+}
+
+.page-todo .task {
+    border-bottom: 1px solid #e4e5e6;
+    margin-bottom: 1px;
+    position: relative
+}
+
+.page-todo .task .desc {
+    display: inline-block;
+    width: 75%;
+    padding: 10px 10px;
+    font-size: 12px
+}
+
+.page-todo .task .desc .title {
+    font-size: 18px;
+    margin-bottom: 5px
+}
+
+.page-todo .task .time {
+    display: inline-block;
+    width: 15%;
+    padding: 10px 10px 10px 0;
+    font-size: 12px;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.page-todo .task .time .date {
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.page-todo .task.last {
+    border-bottom: 1px solid transparent
+}
+
+.page-todo .task.high {
+    border-left: 2px solid #6372ff
+}
+
+button[type=submit] {
+    background: #47b2e4;
+    border: 0;
+    padding: 12px 34px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  
+button[type=submit]:hover {
+    background: #209dd8;
+  }
+
+.botao {
+    border: 0;
+    padding: 1.5px;
+    color: #47b2e4;
+    transition: 0.4s;
+}
+
+input[type=submit] {
+    background: #47b2e4;
+    border: 0;
+    padding: 12px 34px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  
+input[type=submit]:hover {
+    background: #209dd8;
+  }
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #47b2e4;
+    color: white;
+    text-align: center;
+  }
